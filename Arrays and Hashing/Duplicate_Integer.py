@@ -1,6 +1,6 @@
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
-        hashMap = {}
+        hashMap = {} 
         for i, ele in enumerate(nums):
             if ele in hashMap:
                 return True
